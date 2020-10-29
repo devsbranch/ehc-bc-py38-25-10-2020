@@ -70,3 +70,31 @@ d = {'k1':[{'nest_key':['this is deep',['hello']]}]}
 print(d['k1'][0]['nest_key'][1][0])
 # prints "hello"
 d = {'k1':[1,2,{'k2':['this is tricky',{'tough':[1,2,['hello']]}]}]}
+
+
+# Can you sort a dictionary? Why or why not?
+# A dictionary cannot be sorted but you can get a representation of a dictionary sorted by item or by value
+
+# What is the major difference between tuples and lists?
+# A list is mutable while a tuple is immutable meaning a list can be changed while a tuple cannot be changed
+
+# How do you create a tuple?
+# A tuple is created by placing different elements of the same or different types insde round brackets separated by commas.
+
+# What is unique about a set?
+# The unique feature of a set is that it does not allow duplicates. Each element is unique
+
+# Use a set to find the unique values of the list below:
+list5 = [1,2,2,33,4,4,11,22,3,3,2]
+print(set(list5))
+
+# What will be the resulting Boolean of the following pieces of code (answer fist then check by typing it in!)
+2 > 3 # false
+3 <= 2 # false
+3.0 == 3 # True
+4**0.5 != 2 # false
+
+# Final Question: What is the boolean output of the cell block below?
+l_one[2][0] >= l_two[2]['k1']
+# is false because l_one[2][0] = 3 and l_two[2]['k1'] = 4
+# hence l_one[2][0] < l_two[2]['k1']
