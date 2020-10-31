@@ -170,7 +170,3 @@ except sqlite3.Error as e:
 else:
     executioner.close()
     connection.close()
-
-
-
-it
